@@ -1,0 +1,174 @@
+.carousel-img{
+  max-height: 100hv;
+}
+.carousel-caption{
+  background-color: #72696994;
+  border-top: 10px solid rgb(92, 249, 92);
+}
+.vh-50{
+  height: 50vh;
+}
+
+.active{
+  color: rgb(92, 249, 92) !important;
+}
+
+.title-container{
+  position: relative;
+  padding-bottom: 20px;
+
+}
+
+.title-container h2::after{
+  content: "";
+  position: absolute;
+  display: black;
+  width: 50px;
+  height: 3px;
+  background-color:  rgb(92, 249, 92);
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+
+
+.contact{
+margin-top: 200px;
+
+}
+
+.card-icon{
+  transition: 0.5s;
+}
+.card-icon:hover{
+  color: rgb(92, 249, 92) ;
+}
+
+.masonry {
+column-count: 4; /* Jumlah kolom yang diinginkan */
+column-gap: 15px; /* Jarak antar kolom */
+margin-top: 20px;
+}
+
+.masonry-item {
+display: inline-block;
+width: 100%;
+margin-bottom: 15px; /* Jarak antar item */
+break-inside: avoid; /* Menghindari pemotongan item */
+}
+
+.masonry-item img {
+width: 100%;
+height: auto;
+display: block;
+}
+
+@media (max-width: 768px) {
+.masonry {
+  column-count: 2; /* Jumlah kolom berkurang pada layar lebih kecil */
+}
+}
+
+@media (max-width: 480px) {
+.masonry {
+  column-count: 1; /* Hanya satu kolom pada layar yang sangat kecil */
+}
+}
+
+a {
+color: white ;
+} 
+
+
+.bg-darker{
+background: rgb(121, 118, 118);
+}
+
+/* footer */
+.footer {
+background-color: #6c757d; /* Warna abu-abu */
+
+padding: 40px 0; /* Add vertical padding for breathing space */
+color: #f8f9fa; /* Light text color for better readability */
+text-align: center;
+}
+.bg-light-gray {
+background-color: #46494b; /* Warna abu-abu */
+}
+.footer-bottom {
+background-color: #000; /* Warna hitam */
+padding-top: 15px;
+padding-bottom: 15px;
+text-align: center; 
+padding: 20px 0; /* Add vertical padding for more separation */
+border-top: 1px solid #343a40; /* Optional: Add a top border for distinction */
+}
+
+.btn-to-top{
+background-color: rgb(92, 249, 92);
+}
+
+.btn-to-top{
+display: inline;
+position: fixed;
+right: 15px;
+bottom: 15px;
+}
+
+.galeri-filters li{
+transition: 0.5s;
+cursor: pointer;
+}
+
+/* galeri filter */
+.galeri-filters .filter-active, .breadcumbs {
+background: rgb(92, 249, 92) !important; 
+
+}
+
+.gambar-filters {
+transition: 0.5s; /* Durasi transisi 0.5 detik */
+}
+.text-white {
+color: white;
+}
+
+
+/* about */
+
+body {
+padding-top: 75px; /* Sesuaikan dengan tinggi navbar Anda */
+}
+.breadcumbs {
+margin-top: 0; /* Menghapus margin-top default jika ada */
+}
+.breadcumbs h2 {
+margin-top: 0; /* Menghapus margin-top default pada h2 */
+}
+.breadcumbs ol {
+margin: 0;
+padding: 0;
+list-style: none;
+display: flex;
+}
+.breadcumbs ol li {
+margin-right: 5px;
+}
+.breadcumbs ol li + li::before{
+display: inline-block;
+color: white;
+padding-right:  10px;
+padding-left: 10px;
+content: "/";
+}
+
+.card-img-top {
+height: 400px;
+object-fit: cover;
+}
+.card {
+margin-bottom: 20px; /* Jarak vertikal antar baris card */
+}
+
+
+
